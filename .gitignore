@@ -68,3 +68,7 @@ typings/
 .yarn-integrity
 .env
 .next
+
+.parcel-cache
+dist
+pnpm-lock.yaml
