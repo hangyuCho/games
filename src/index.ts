@@ -1,5 +1,8 @@
-function hello(name: string): string {
-  return `Hello, ${name}!`;
-}
 
-console.log(hello ("TypeScript"))
+window.onload = () => {
+  const div: HTMLDivElement | null = 
+  document.querySelector("#text")
+  if (div) {
+    div.innerHTML = "hogehogehoge"
+  }
+}
